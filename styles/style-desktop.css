@@ -25,17 +25,12 @@
     .nav-items a {
         padding: 20px;
     }
-
-    .contact-button {
-        background-color: white;
-        color: var(--black-coral);
-    }
     .site-nav {
         padding: 20px;
     }
     
     .layout-header {
-        height: 50vh;
+        height: 600px;
     }
     .layout-header {
         background-image: url(/images/desktop/image-header.jpg);
@@ -51,8 +46,21 @@
         grid-template-columns: 1fr 1fr;
     } 
 
-    .layout-image, .layout-about, .layout-service {
-        height: 50vh;
+    .layout-image, 
+    .layout-about, 
+    .layout-service {
+        height: 600px;
+    }
+
+    .layout-about {
+        align-items: flex-start;
+        text-align: left;
+        padding: 0 80px;
+    }
+
+    .layout-service {
+        padding: 0 120px;
+        align-items: center;
     }
     #about-1 {
         order: -1
@@ -67,10 +75,36 @@
 
     .layout-grid-2 {
         display: grid;
+        height: 600px;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .testimonials-header {
+        padding: 72px 0;
+    }
+
+    .layout-testimonials {
+        padding: 60px 60px;
+    }
+
+    .layout-testimonials p {
+        padding: 60px 0px;
     }
 
     .layout-img-grid {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+
+    .layout-img-grid img {
+        object-fit: cover;
+    }
+
+    .layout-footer {
+        height: 320px;
+    }
+
+    .footer-nav a {
+        padding: 0 40px;
+    }
+
 }

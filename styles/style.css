@@ -18,24 +18,19 @@ h2 {
     font-family: 'Fraunces', serif;
     font-weight: 900;
     font-size: 32px;
-    text-align: center;
-    padding: 20px 14px;
 }
 
 h3 {
     font-family: 'Fraunces', sans-serif;
     font-size: 16px;
-    text-align: center;
 }
 
 h4 {
     font-family: 'Fraunces', sans-serif;
-    text-align: center;
 }
 
 h5 {
     font-family: 'Barlow', serif;
-    text-align: center;
     font-weight: 600;
 }
 
@@ -44,8 +39,6 @@ p {
     font-weight: 600;
     font-size: 18px;
     line-height: 32px;
-    text-align: center;
-    padding: 20px 14px;
 }
 
 a {
@@ -82,6 +75,25 @@ a {
     color: white;
     font-family: 'Barlow', serif;
     font-weight: 600;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50px;
+    height: 40px;
+}
+
+.contact-button a {
+    text-align: center;
+    position: relative;
+    color: var(--blue-sapphire);
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    padding: 0 24px;
+    text-transform: uppercase;
 }
 
 .site-header {
@@ -122,13 +134,17 @@ a {
     align-items: center;
     justify-content: center;
     height: 75vh;
+    text-align: center;
+    padding: 0 40px;
 }
 
 .layout-about h2 {
+    padding: 20px 0;
     color: var(--gunmetal);
 }
 
 .layout-about p {
+    padding: 20px 0;
     color: var(--roman-silver);
 }
 
@@ -169,11 +185,16 @@ a {
     height: 100vh;
     background-position: center;
     background-size: cover;
+    text-align: center;
 }
 
 .layout-service-text {
     position: relative;
     top: 25%;
+}
+
+.layout-service-text h2, .layout-service-text p {
+    padding: 10px 0;
 }
 
 #service-1 .layout-service-text {
@@ -207,6 +228,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding: 48px 20px;
+    text-align: center;
 }
 
 .layout-testimonials {
@@ -214,6 +236,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 30px 10px;
+    text-align: center;
 }
 
 .layout-testimonials img {
@@ -223,6 +246,7 @@ a {
 }
 
 .layout-testimonials p {
+    padding: 20px 24px;
     color: var(--black-coral);
 }
 
@@ -259,21 +283,26 @@ a {
 .footer-nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 25px;
+}
+
+.footer-nav a {
+    padding: 0 25px;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .footer-socials {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px 100px;
 }
 
-.footer-nav a {
-    font-weight: 400;
-    font-size: 18px;
-    text-decoration: none;
+.footer-socials img {
+    padding: 0 15px;
 }
 
 .footer-header {

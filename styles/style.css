@@ -125,7 +125,7 @@ a {
 }
 
 #layout-img-2 {
-    background-image: url('/images/mobile/image-stand-out.jpg');
+    background-image: url('../images/mobile/image-stand-out.jpg');
 }
 
 .layout-about {
@@ -216,11 +216,11 @@ a {
 }
 
 #service-1 {
-    background-image: url(/images/mobile/image-graphic-design.jpg);
+    background-image: url('../images/mobile/image-graphic-design.jpg');
 }
 
 #service-2 {
-    background-image: url(/images/mobile/image-photography.jpg);
+    background-image: url('../images/mobile/image-photography.jpg');
 }
 
 .testimonials-header {

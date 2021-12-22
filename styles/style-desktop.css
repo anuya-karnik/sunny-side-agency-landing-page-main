@@ -33,7 +33,7 @@
         height: 600px;
     }
     .layout-header {
-        background-image: url(../images/desktop/image-header.jpg);
+        background-image: url('../images/desktop/image-header.jpg');
         background-size: cover;
         background-position: center;
     }
@@ -66,11 +66,11 @@
         order: -1
     }
     #service-1 {
-        background-image: url(../images/desktop/image-graphic-design.jpg);
+        background-image: url('../images/desktop/image-graphic-design.jpg');
     }
     
     #service-2 {
-        background-image: url(../images/desktop/image-photography.jpg);
+        background-image: url('../images/desktop/image-photography.jpg');
     }
 
     .layout-grid-2 {

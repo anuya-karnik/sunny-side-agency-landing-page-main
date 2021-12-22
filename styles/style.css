@@ -6,11 +6,51 @@
     --brunswick-green: #25564bff;
     --blue-sapphire: #19536bff;
     --wintergreen-dream: #458c7eff;
+    --middle-blue-green: #9fd0c6ff;
     --gunmetal: #23303eff;
     --black-coral: #5a636cff;
     --roman-silver: #818498ff;
     --silver-chalice: #a7abaeff;
     --white: #ffffffff;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 14px;
+}
+
+h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Fraunces', sans-serif;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Barlow', serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 20px 14px;
+}
+
+a {
+    font-family: 'Barlow', serif;
+    text-decoration: none;
 }
 
 .layout-header {
@@ -35,9 +75,7 @@
 }
 
 .site-nav a {
-    font-family: 'Barlow', serif;
     color: white;
-    text-decoration: none;
 }
 
 .nav-header {
@@ -60,7 +98,7 @@
     text-transform: uppercase;
     letter-spacing: 8px;
     margin-bottom: 50px;
-    
+
 }
 
 .layout-image {
@@ -87,21 +125,10 @@
 }
 
 .layout-about h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: 32px;
-    text-align: center;
-    padding: 20px 14px;
     color: var(--gunmetal);
 }
 
 .layout-about p {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 32px;
-    text-align: center;
-    padding: 20px 14px;
     color: var(--roman-silver);
 }
 
@@ -111,6 +138,156 @@
     font-weight: 900;
     color: var(--gunmetal);
     text-transform: uppercase;
-
     text-decoration: none;
+}
+
+.link-underline {
+    z-index: -1;
+    display: block;
+    position: relative;
+    top: -1.5%;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+}
+
+#about-1 .link-underline {
+    background-color: var(--gold-web-golden);
+    opacity: 20%;
+}
+
+#about-2 .link-underline {
+    background-color: var(--bittersweet);
+    opacity: 20%;
+}
+
+.layout-service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.layout-service-text {
+    position: relative;
+    top: 25%;
+}
+
+#service-1 .layout-service-text {
+    margin: 0 16px;
+    color: var(--brunswick-green);
+}
+
+#service-2 .layout-service-text {
+    color: var(--blue-sapphire);
+}
+
+.layout-service-text h2 {
+    font-size: 28px;
+}
+
+.layout-service-text p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#service-1 {
+    background-image: url(/images/mobile/image-graphic-design.jpg);
+}
+
+#service-2 {
+    background-image: url(/images/mobile/image-photography.jpg);
+}
+
+.testimonials-header {
+    color: var(--silver-chalice);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 48px 20px;
+}
+
+.layout-testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.layout-testimonials img {
+    border-radius: 100%;
+    max-width: 100%;
+    height: 12vh;
+}
+
+.layout-testimonials p {
+    color: var(--black-coral);
+}
+
+.layout-testimonials h4 {
+    font-size: 18px;
+    color: var(--gunmetal);
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.layout-testimonials h5 {
+    color: var(--silver-chalice);
+}
+
+.layout-img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.layout-img-grid img {
+    width: 100%;
+}
+
+.layout-footer {
+    height: 50vh;
+    background-color: var(--middle-blue-green);
+}
+
+.layout-footer a {
+    color: var(--brunswick-green);
+    text-align: center;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.footer-nav a {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footer-header {
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 40px;
+    text-align: center;
+    color: var(--brunswick-green);
+}
+
+.attribution, .attribution a {
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
 }

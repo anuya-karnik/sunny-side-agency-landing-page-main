@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    /* Color Scheme for the Website */
+    --bittersweet: #fe7867ff;
+    --gold-web-golden: #fad400ff;
+    --brunswick-green: #25564bff;
+    --blue-sapphire: #19536bff;
+    --wintergreen-dream: #458c7eff;
+    --gunmetal: #23303eff;
+    --black-coral: #5a636cff;
+    --roman-silver: #818498ff;
+    --silver-chalice: #a7abaeff;
+    --white: #ffffffff;
+}
+
+.layout-header {
+    display: block;
+    height: 75vh;
+    background-image: url('/images/mobile/image-header.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.nav-items {
+    display: none;
+}
+
+.site-nav {
+    margin: 0px 15px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-nav a {
+    font-family: 'Barlow', serif;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-header {
+    color: white;
+    font-family: 'Barlow', serif;
+    font-weight: 600;
+}
+
+.site-header {
+    position: relative;
+    margin-top: 15%;
+    color: white;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 50px;
+    
+}
+
+.layout-image {
+    display: block;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#layout-img-1 {
+    background-image: url('/images/mobile/image-transform.jpg');
+}
+
+#layout-img-2 {
+    background-image: url('/images/mobile/image-stand-out.jpg');
+}
+
+.layout-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+}
+
+.layout-about h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 14px;
+    color: var(--gunmetal);
+}
+
+.layout-about p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 20px 14px;
+    color: var(--roman-silver);
+}
+
+.layout-about a {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: var(--gunmetal);
+    text-transform: uppercase;
+
+    text-decoration: none;
+}

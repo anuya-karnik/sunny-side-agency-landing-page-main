@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    /* Color Scheme for the Website */
+    --bittersweet: #fe7867ff;
+    --gold-web-golden: #fad400ff;
+    --brunswick-green: #25564bff;
+    --blue-sapphire: #19536bff;
+    --wintergreen-dream: #458c7eff;
+    --middle-blue-green: #9fd0c6ff;
+    --gunmetal: #23303eff;
+    --black-coral: #5a636cff;
+    --roman-silver: #818498ff;
+    --silver-chalice: #a7abaeff;
+    --white: #ffffffff;
+}
+
+@media screen and (min-width: 641px) {
+
+    .nav-hamburger-icon {
+        display: none;
+    }
+    .nav-items {
+        display: inline;
+    }
+    .nav-items a {
+        padding: 20px;
+    }
+
+    .contact-button {
+        background-color: white;
+        color: var(--black-coral);
+    }
+    .site-nav {
+        padding: 20px;
+    }
+    
+    .layout-header {
+        height: 50vh;
+    }
+    .layout-header {
+        background-image: url(/images/desktop/image-header.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .site-header {
+        margin-top: 5%;
+    }
+    .layout-grid-1    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    .layout-image, .layout-about, .layout-service {
+        height: 50vh;
+    }
+    #about-1 {
+        order: -1
+    }
+    #service-1 {
+        background-image: url(/images/desktop/image-graphic-design.jpg);
+    }
+    
+    #service-2 {
+        background-image: url(/images/desktop/image-photography.jpg);
+    }
+
+    .layout-grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .layout-img-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
